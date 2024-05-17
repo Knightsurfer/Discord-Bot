@@ -24,7 +24,7 @@
     #users = readjson(os.getenv('log-dir'),".exp") 
     #sql_gaincash(msg.author.id,users[str(msg.author.id)]["balance"]) 
 
-load_dotenv()
+#load_dotenv()
 print("Test")
 #client.run(os.getenv('bot-token'))
 messages = 0
