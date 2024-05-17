@@ -9,6 +9,10 @@ on:
   pull_request:
     branches: [ "main" ]
 
+env:
+  password: ${{secrets.BOT_PASSWORD}}
+  token: ${{variables.BOT_TOKEN}}
+
 permissions:
   contents: read
 
