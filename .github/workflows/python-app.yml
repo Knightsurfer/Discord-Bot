@@ -36,7 +36,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Install Modules
       run: |
-        pip install dotenv
+        pip install python-dotenv
     - name: Run Bot
       run: |
         python bot.py
