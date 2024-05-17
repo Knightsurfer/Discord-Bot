@@ -10,7 +10,7 @@ on:
     branches: [ "main" ]
 
 env:
-  password: ${{secrets.BOT_PASSWORD}}
+  password: ${{ secrets.BOT_PASSWORD }}
 
 permissions:
   contents: read
