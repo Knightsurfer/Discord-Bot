@@ -1,4 +1,7 @@
 import discord; import os;
+client = discord.Client(intents=discord.Intents.all()); #discord.Client(intents=discord.Intents.default());
+from discord import app_commands; tree = app_commands.CommandTree(client);
+clear = lambda: os.system('clear'); import json;
 
 async def ChangeActivity(client,activity):
     if(activity == "playing"):
