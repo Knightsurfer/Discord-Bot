@@ -37,6 +37,7 @@ jobs:
     - name: Install Modules
       run: |
         pip install python-dotenv
+        pip install discord
     - name: Run Bot
       run: |
         python bot.py
