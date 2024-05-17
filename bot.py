@@ -26,7 +26,7 @@ from setup.login import *;
     #sql_gaincash(msg.author.id,users[str(msg.author.id)]["balance"]) 
 
 load_dotenv()
-token = os.environ['password']
+token = os.environ["password"]
 print("The Token Is: " + token)
 #client.run(token)
 messages = 0
