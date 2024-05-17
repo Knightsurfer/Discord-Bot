@@ -1,4 +1,6 @@
 from setup.login import *;
+token = os.environ['password']
+
 #@client.event
 #async def on_message(msg):
 #    echoMessages(msg)
@@ -25,6 +27,6 @@ from setup.login import *;
     #sql_gaincash(msg.author.id,users[str(msg.author.id)]["balance"]) 
 
 load_dotenv()
-print("The Token Is:" + os.environ['password'])
+print("The Token Is:" + token)
 client.run(os.environ['password'])
 messages = 0
