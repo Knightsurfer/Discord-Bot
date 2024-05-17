@@ -26,5 +26,5 @@ from setup.login import *;
 
 load_dotenv()
 print("Test")
-#client.run(os.getenv('bot-token'))
+#client.run(os.getenv('BOT_TOKEN'))
 messages = 0
