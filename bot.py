@@ -28,5 +28,5 @@ from setup.login import *;
 load_dotenv()
 token = os.environ['password']
 print("The Token Is: " + token)
-client.run(token)
+#client.run(token)
 messages = 0
