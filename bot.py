@@ -1,4 +1,4 @@
-#from setup.login import *;
+from setup.login import *;
 #@client.event
 #async def on_message(msg):
 #    echoMessages(msg)
